@@ -1,0 +1,70 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 70%;
+  height: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.lightgreen {
+  width: 80%;
+  height: 10%;
+  background-color: #9ade7b;
+}
+
+.blue {
+  width: 20%;
+  height: 10%;
+  background-color: #6db9ef;
+}
+
+.red {
+  width: 30%;
+  height: 40%;
+  background-color: #be2402;
+}
+
+.container > div:nth-child(4) {
+  width: 70%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.orange {
+  width: 50%;
+  background-color: #e46c03;
+}
+
+.gray {
+  width: 50%;
+  background-color: #a9a9a9;
+}
+
+.yellow {
+  width: calc(100% / 3);
+  background-color: #f1e61c;
+}
+
+.green {
+  width: calc(100% / 3);
+  background-color: #024d12;
+}
+
+.purple {
+  width: calc(100% / 3);
+  background-color: #c50572;
+}
+
+.darkblue {
+  width: 100%;
+  height: 50%;
+  background-color: #071952;
+}
